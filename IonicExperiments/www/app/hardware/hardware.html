@@ -1,0 +1,39 @@
+<div class="bar bar-subheader bar-energized">
+    <h2 class="title">Hardware - Phone</h2>
+</div>
+
+<ion-view ng-controller="HardwareCtrl as vm">
+    <ion-content class="has-header has-subheader">
+        <div class="card">
+            <div class="item item-divider">
+                Phone access - features
+            </div>
+            <div class="item item-text-wrap">
+                <button ng-click="vm.testMe()" class="button">
+                    Console log test
+                </button>
+
+                <button ng-click="vm.beep()" class="button">
+                    Cordova dialogs - beep!
+                </button>
+
+                <button ng-click="vm.alert()" class="button">
+                    Cordova dialogs - alert!
+                </button>
+
+                <button ng-click="vm.vibrate()" class="button">
+                    Console log vibrate !
+                </button>
+
+                <button ng-click="vm.vibrate()" class="button">
+                    Console log vibrate !
+                </button>
+
+                <div class="card">
+                    <p>Network Online : {{vm.isOnline}}</p>
+                    <p>Network Offline : {{vm.isOffline}}</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
