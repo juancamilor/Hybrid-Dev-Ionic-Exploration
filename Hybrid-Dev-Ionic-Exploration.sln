@@ -24,6 +24,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Hybrid-Dev-Ionic-Exploratio
 		SlnRelativePath = "..\Hybrid-Dev-Ionic-Exploration\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IonicExperimentsTmp", "http://localhost:51954", "{76361990-9A56-4756-AF08-CA9F656ED5F1}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51954"
+		Debug.AspNetCompiler.PhysicalPath = "..\IonicExperimentsTmp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51954\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51954"
+		Release.AspNetCompiler.PhysicalPath = "..\IonicExperimentsTmp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51954\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\IonicExperimentsTmp\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +52,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9BD286FF-02F5-41DA-8055-0E4366C02B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BD286FF-02F5-41DA-8055-0E4366C02B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76361990-9A56-4756-AF08-CA9F656ED5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76361990-9A56-4756-AF08-CA9F656ED5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

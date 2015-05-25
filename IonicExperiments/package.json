@@ -15,9 +15,9 @@
     "shelljs": "^0.3.0"
   },
   "cordovaPlugins": [
-    "org.apache.cordova.device",
-    "org.apache.cordova.console",
-    "com.ionic.keyboard"
-  ],
-  "cordovaPlatforms": []
+    "com.ionic.keyboard",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.vibration",
+    "org.apache.cordova.network-information"
+  ]
 }

@@ -131,7 +131,7 @@ angular.module("eliteApp", ["ngCordova", "ionic", "angular-data.DSCacheFactory",
   })
 
   .state('app.push', {
-      url: "/psuh",
+      url: "/push",
       views: {
           'mainContent': {
               templateUrl: "app/push/push.html",

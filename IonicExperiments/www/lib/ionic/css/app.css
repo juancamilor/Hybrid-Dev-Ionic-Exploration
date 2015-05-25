@@ -3139,7 +3139,7 @@ a.subdued {
       color: white; }
   .bar.bar-balanced {
     border-color: black;
-    background-color: #003300;
+    background-color: green;
     background-image: linear-gradient(0deg, black, black 50%, transparent 50%);
     color: white; }
     .bar.bar-balanced .title {
